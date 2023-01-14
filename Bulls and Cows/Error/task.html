@@ -1,14 +1,22 @@
 <h5 id="description" style="text-align: center;">Description</h5>
-<p>There are a lot of error possibilities. What if someone enters an answer of the wrong length? Or the number of possible symbols is less than the length of the code? What if the answer contains invalid symbols? The game may crash before the secret number was guessed!</p>
-<p>Let's handle errors like this. At this point, you can implement this without the <code class="java">try catch</code> construction. Use the following rule of thumb: if you can avoid the exception-based logic, avoid it! If you use exceptions in normal situations, how would you deal with unusual (exceptional) situations? Now it may not seem that important, but when you need to find errors in more complex programs, this makes a difference.</p>
+<p>There are a lot of error possibilities. What if someone enters an answer of the wrong length? Or the number of
+    possible symbols is less than the length of the code? What if the answer contains invalid symbols? The game may
+    crash before the secret number was guessed!</p>
+<p>Let's handle errors like this. At this point, you can implement this without the <code class="java">try catch</code>
+    construction. Use the following rule of thumb: if you can avoid the exception-based logic, avoid it! If you use
+    exceptions in normal situations, how would you deal with unusual (exceptional) situations? Now it may not seem that
+    important, but when you need to find errors in more complex programs, this makes a difference.</p>
 <h5 id="objectives" style="text-align: center;">Objectives</h5>
 <p>In this stage, your program should:</p>
 <ol>
-<li>Handle incorrect input.</li>
-<li>Print an error message that contains the word <code class="java">error</code>. After that, don't ask for the numbers again, just finish the program.</li>
+    <li>Handle incorrect input.</li>
+    <li>Print an error message that contains the word <code class="java">error</code>. After that, don't ask for the
+        numbers again, just finish the program.
+    </li>
 </ol>
 <h5 id="examples" style="text-align: center;">Examples</h5>
-<p>The greater-than symbol followed by a space <code class="java">&gt; </code> represents the user input. Note that it's not part of the input.</p>
+<p>The greater-than symbol followed by a space <code class="java">&gt; </code> represents the user input. Note that it's
+    not part of the input.</p>
 <p><strong>Example 1</strong></p>
 <pre><code class="language-no-highlight">Input the length of the secret code:
 &gt; 6
